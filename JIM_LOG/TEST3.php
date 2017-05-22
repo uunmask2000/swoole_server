@@ -59,7 +59,7 @@
              if (obj.event == 'getCard') {
                  document.getElementById("demo2").innerHTML = "開局+取牌" + evt.data;
                  var player_hand = JSON.parse("[" + obj.cardData.player1 + "]");
-                 ///alert(player_hand[13]); 						
+                 ///alert(player_hand[13]);
                  var sendObj = {
                      roomId: 3,
                      player: 1,
@@ -72,17 +72,17 @@
              }
              if (obj.event == 'outCard') {
                  document.getElementById("demo3").innerHTML = evt.data;
-                 //if(obj.Round == '1234' ) 
+                 //if(obj.Round == '1234' )
                  var n1 = JSON.parse("" + obj.Round + "");
                  var n = JSON.stringify(n1);
-			
+
 				//var endCard = JSON.parse("" + obj.endCard + "").length;
-                // alert(endCard);	
+                // alert(endCard);
 
 var endCard1 = JSON.parse("[" + obj.cardData.endCard + "]");
 var EDlength = endCard1.length ;
 document.getElementById("demo4").innerHTML = endCard1;
-                 //alert(EDlength);	
+                 //alert(EDlength);
 //if(EDlength > 9 )
 if(EDlength > 0  )
 {
@@ -93,7 +93,7 @@ if(EDlength > 0  )
                      case '1234':
                          //alert("1234");
                          var player_hand = JSON.parse("[" + obj.cardData.player1 + "]");
-                         ///alert(player_hand[13]); 						
+                         ///alert(player_hand[13]);
                          var sendObj = {
                              roomId: 3,
                              player: 1,
@@ -107,7 +107,7 @@ if(EDlength > 0  )
                      case '2341':
                          //alert("2341");
                          var player_hand = JSON.parse("[" + obj.cardData.player2 + "]");
-                         ///alert(player_hand[13]); 						
+                         ///alert(player_hand[13]);
                          var sendObj = {
                              roomId: 3,
                              player: 2,
@@ -121,7 +121,7 @@ if(EDlength > 0  )
                      case '3412':
                          //alert("3412");
                          var player_hand = JSON.parse("[" + obj.cardData.player3 + "]");
-                         ///alert(player_hand[13]); 						
+                         ///alert(player_hand[13]);
                          var sendObj = {
                              roomId: 3,
                              player: 3,
@@ -135,7 +135,7 @@ if(EDlength > 0  )
                      case '4123':
                          //alert("4123");
                          var player_hand = JSON.parse("[" + obj.cardData.player4 + "]");
-                         ///alert(player_hand[13]); 						
+                         ///alert(player_hand[13]);
                          var sendObj = {
                              roomId: 3,
                              player: 4,
@@ -158,10 +158,10 @@ if(EDlength > 0  )
 	 var d = new Date()
 	 var dd = d.toLocaleString() ;
 	 //alert(dd);
-	
-	 if( dd < "2017-5-19 18:00:00")
+
+	 if( dd < "2017-5-22 11:30:00")
 	 {
-            /* 
+            /*
             var sendObj = {
             roomId: 3,
             player: 1,
@@ -182,7 +182,7 @@ if(EDlength > 0  )
              ///ws.send("发送数据");
              //alert("数据发送中...");
 	 }
-	
+
 	 /*
 	var sendObj = {
 			roomId: 2,
@@ -192,10 +192,10 @@ if(EDlength > 0  )
 			data: ""
 			};
 			ws.send(JSON.stringify(sendObj));
-			//alert("牌局開始 ! "); 	
+			//alert("牌局開始 ! ");
 			*/
-}	
-                
+}
+
 
 
 
@@ -213,12 +213,12 @@ if(EDlength > 0  )
          alert("您的浏览器不支持 WebSocket!");
      }
  }
-	
+
       </script>
-		
+
    </head>
    <body>
-   
+
       <div>
          <a href="javascript:WebSocketTest()">測試產生</a>
       </div>
@@ -228,6 +228,6 @@ if(EDlength > 0  )
 	<p id="demo3"></p>
 	<p id="demo4"></p>
 	<p id="list"></p>
-	
+
    </body>
 </html>

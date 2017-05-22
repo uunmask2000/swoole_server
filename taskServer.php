@@ -28,7 +28,7 @@ class taskServer
         //初始化swoole服务
         $this->serv->set(array(
             'worker_num'      => 1,
-            'daemonize'       => false, //是否作为守护进程,此配置一般配合log_file使用
+            //'daemonize'       => false, //是否作为守护进程,此配置一般配合log_file使用
             'max_request'     => 100000,
             'log_file'        => './log/taskServer.log',
             'task_worker_num' => 1,
@@ -162,7 +162,7 @@ class taskServer
     {
         $client = new taskClient();
         $client->connect($worker);
-        $worker->daemon(true); //2017-05-016 add
+        //$worker->daemon(true); //2017-05-016 add
     }
 
     /**
