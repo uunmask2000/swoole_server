@@ -1,0 +1,1149 @@
+-------------------------
+2017-05-18 13:36:49Client Close 關閉
+swoole_websocket_server Object
+(
+    [global:swoole_http_server:private] => 0
+    [connections] => swoole_connection_iterator Object
+        (
+        )
+
+    [host] => 0.0.0.0
+    [port] => 9512
+    [mode] => 3
+    [type] => 1
+    [ports] => Array
+        (
+            [0] => swoole_server_port Object
+                (
+                    [host] => 0.0.0.0
+                    [port] => 9512
+                    [type] => 1
+                    [setting] => Array
+                        (
+                            [daemonize] => 
+                            [max_request] => 100000
+                            [log_file] => ./broadcast.log
+                        )
+
+                    [onConnect] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29564
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                            [1] => 2
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onConnect
+                        )
+
+                    [onClose] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29564
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                            [1] => 2
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onClose
+                        )
+
+                )
+
+        )
+
+    [setting] => Array
+        (
+            [daemonize] => 
+            [max_request] => 100000
+            [log_file] => ./broadcast.log
+            [open_http_protocol] => 1
+            [open_mqtt_protocol] => 
+            [open_eof_check] => 
+            [open_length_check] => 
+            [open_websocket_protocol] => 1
+            [worker_num] => 1
+            [task_worker_num] => 0
+            [pipe_buffer_size] => 33554432
+            [buffer_output_size] => 2097152
+            [max_connection] => 1024
+        )
+
+    [onWorkerStart] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onWorkerStart
+        )
+
+    [onOpen] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onStart
+        )
+
+    [onConnect] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onConnect
+        )
+
+    [onMessage] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onMessage
+        )
+
+    [onClose] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onClose
+        )
+
+    [onTask] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onTask
+        )
+
+    [onFinish] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                            [1] => 2
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onFinish
+        )
+
+    [master_pid] => 29560
+    [manager_pid] => 29561
+    [worker_id] => 0
+    [taskworker] => 
+    [worker_pid] => 29563
+)
+
+-------------------------
+-------------------------
+2017-05-18 13:36:53Client Close 關閉
+swoole_websocket_server Object
+(
+    [global:swoole_http_server:private] => 0
+    [connections] => swoole_connection_iterator Object
+        (
+        )
+
+    [host] => 0.0.0.0
+    [port] => 9512
+    [mode] => 3
+    [type] => 1
+    [ports] => Array
+        (
+            [0] => swoole_server_port Object
+                (
+                    [host] => 0.0.0.0
+                    [port] => 9512
+                    [type] => 1
+                    [setting] => Array
+                        (
+                            [daemonize] => 
+                            [max_request] => 100000
+                            [log_file] => ./broadcast.log
+                        )
+
+                    [onConnect] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29564
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onConnect
+                        )
+
+                    [onClose] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29564
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onClose
+                        )
+
+                )
+
+        )
+
+    [setting] => Array
+        (
+            [daemonize] => 
+            [max_request] => 100000
+            [log_file] => ./broadcast.log
+            [open_http_protocol] => 1
+            [open_mqtt_protocol] => 
+            [open_eof_check] => 
+            [open_length_check] => 
+            [open_websocket_protocol] => 1
+            [worker_num] => 1
+            [task_worker_num] => 0
+            [pipe_buffer_size] => 33554432
+            [buffer_output_size] => 2097152
+            [max_connection] => 1024
+        )
+
+    [onWorkerStart] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onWorkerStart
+        )
+
+    [onOpen] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onStart
+        )
+
+    [onConnect] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onConnect
+        )
+
+    [onMessage] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onMessage
+        )
+
+    [onClose] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onClose
+        )
+
+    [onTask] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onTask
+        )
+
+    [onFinish] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29564
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onFinish
+        )
+
+    [master_pid] => 29560
+    [manager_pid] => 29561
+    [worker_id] => 0
+    [taskworker] => 
+    [worker_pid] => 29563
+)
+
+-------------------------
+-------------------------
+2017-05-18 15:13:16Client Close 關閉
+swoole_websocket_server Object
+(
+    [global:swoole_http_server:private] => 0
+    [connections] => swoole_connection_iterator Object
+        (
+        )
+
+    [host] => 0.0.0.0
+    [port] => 9512
+    [mode] => 3
+    [type] => 1
+    [ports] => Array
+        (
+            [0] => swoole_server_port Object
+                (
+                    [host] => 0.0.0.0
+                    [port] => 9512
+                    [type] => 1
+                    [setting] => Array
+                        (
+                            [daemonize] => 
+                            [max_request] => 100000
+                            [log_file] => ./broadcast.log
+                        )
+
+                    [onConnect] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29982
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onConnect
+                        )
+
+                    [onClose] => Array
+                        (
+                            [0] => BroadcastServer Object
+                                (
+                                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                                    [pdo:BroadcastServer:private] => 
+                                    [data_fd:BroadcastServer:private] => 
+                                    [data_data:BroadcastServer:private] => 
+                                    [process:BroadcastServer:private] => swoole_process Object
+                                        (
+                                            [pipe] => 10
+                                            [callback] => Array
+                                                (
+                                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                                    [1] => callback
+                                                )
+
+                                            [pid] => 29982
+                                        )
+
+                                    [connections:BroadcastServer:private] => Array
+                                        (
+                                        )
+
+                                    [redis] => Redis Object
+                                        (
+                                            [socket] => Resource id #5
+                                        )
+
+                                )
+
+                            [1] => onClose
+                        )
+
+                )
+
+        )
+
+    [setting] => Array
+        (
+            [daemonize] => 
+            [max_request] => 100000
+            [log_file] => ./broadcast.log
+            [open_http_protocol] => 1
+            [open_mqtt_protocol] => 
+            [open_eof_check] => 
+            [open_length_check] => 
+            [open_websocket_protocol] => 1
+            [worker_num] => 1
+            [task_worker_num] => 0
+            [pipe_buffer_size] => 33554432
+            [buffer_output_size] => 2097152
+            [max_connection] => 1024
+        )
+
+    [onWorkerStart] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onWorkerStart
+        )
+
+    [onOpen] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onStart
+        )
+
+    [onConnect] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onConnect
+        )
+
+    [onMessage] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onMessage
+        )
+
+    [onClose] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onClose
+        )
+
+    [onTask] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onTask
+        )
+
+    [onFinish] => Array
+        (
+            [0] => BroadcastServer Object
+                (
+                    [serv:BroadcastServer:private] => swoole_websocket_server Object
+ *RECURSION*
+                    [pdo:BroadcastServer:private] => 
+                    [data_fd:BroadcastServer:private] => 
+                    [data_data:BroadcastServer:private] => 
+                    [process:BroadcastServer:private] => swoole_process Object
+                        (
+                            [pipe] => 10
+                            [callback] => Array
+                                (
+                                    [0] => BroadcastServer Object
+ *RECURSION*
+                                    [1] => callback
+                                )
+
+                            [pid] => 29982
+                        )
+
+                    [connections:BroadcastServer:private] => Array
+                        (
+                        )
+
+                    [redis] => Redis Object
+                        (
+                            [socket] => Resource id #5
+                        )
+
+                )
+
+            [1] => onFinish
+        )
+
+    [master_pid] => 29978
+    [manager_pid] => 29979
+    [worker_id] => 0
+    [taskworker] => 
+    [worker_pid] => 29981
+)
+
+-------------------------
